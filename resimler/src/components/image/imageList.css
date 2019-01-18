@@ -1,0 +1,10 @@
+.image-list-container {
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: 5px;
+}
+
+.image-list-container img {
+  width: 300px;
+}

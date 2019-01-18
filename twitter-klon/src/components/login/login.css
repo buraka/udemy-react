@@ -1,0 +1,15 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-top: 30px;
+}
+
+.login-item {
+  padding: 10px 0;
+}
