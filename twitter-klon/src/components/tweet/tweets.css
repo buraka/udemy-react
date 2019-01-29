@@ -1,0 +1,17 @@
+.tweets-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 30px;
+}
+
+.tweet-wrapper {
+  border-radius: 5px;
+  padding-left: 10px !important;
+}
+
+.tweet-wrapper:hover {
+  cursor: pointer;
+  background-color: lightgray !important;
+}

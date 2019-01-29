@@ -3,6 +3,7 @@ import { Router, Route, Switch } from 'react-router-dom';
 import Menu from './menu/menu';
 import Tweets from './tweet/tweets';
 import MyTweets from './tweet/myTweets';
+import NewTweet from './tweet/newTweet/newTweet';
 import Login from './login/login';
 import firebase from 'firebase/app';
 import history from '../history';
@@ -11,7 +12,7 @@ import { connect } from 'react-redux';
 
 class App extends Component {
 
-  componentDidMount() {
+  componentWillMount() {
     firebase.initializeApp({
       apiKey: "AIzaSyCtBRvbHrBafvuPwfKvyyQl1MYcU7NRoyM",
       authDomain: "twitterklon-react.firebaseapp.com",
@@ -32,6 +33,8 @@ class App extends Component {
           <Switch>
             <Route path='/' exact component={Tweets} />
             <Route path='/myTweets' component={MyTweets} />
+            <Route path='/newTweet' component={NewTweet} />
+            <Route path='/editTweet' component={NewTweet} />
             <Route path='/login' component={Login} />
           </Switch>
         </div>

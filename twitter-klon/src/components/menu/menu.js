@@ -11,6 +11,7 @@ class Menu extends Component {
       <div className='ui secondary  menu'>
         <Link className='item' to='/'> Tweetler </Link>
         <Link className='item' to='/myTweets'> Benim Tweetlerim </Link>
+        <Link className='item' to='/newTweet'> Yeni Tweet </Link>
         <div className='right menu'>
           <Link className='item' to='/' onClick={() => {
             this.props.logout();
