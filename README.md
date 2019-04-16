@@ -10,7 +10,7 @@ Bu repo Udemy üzerinden yayınlanan ReactJS Redux kursu için hazırlanmıştı
 
 React JS ile sıfırdan ileri seviyeye mükemmel web uygulamaları geliştirmek istiyorsanız bu kurs tam size göre.
 
-# Bu kursta yapacağımız birkaç uygulamadan bahsedelim.
+<h3>Bu kursta yapacağımız birkaç uygulamadan bahsedelim. </h2>
 <ul>
   <li>Hesap Makinesi</li>
   <li>Lokasyon Uygulaması</li>
@@ -22,7 +22,7 @@ React JS ile sıfırdan ileri seviyeye mükemmel web uygulamaları geliştirmek 
 
 gibi uygulamalar ile React'ı tüm yönleri ile size anlatacağım.
 
-Kursta bulunan ve ayrıntılı bir şekilde öğreneceğiniz özelliklere bakalım.
+<h3>Kursta bulunan ve ayrıntılı bir şekilde öğreneceğiniz özelliklere bakalım.</h3>
 
 <ul>
   <li>İlk başta yeni başlayan arkadaşlarımız için Javascript temellerinden bahsedeceğiz. Nedir nasıl kullanılır?
